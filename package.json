@@ -1,0 +1,23 @@
+{
+  "name": "y",
+  "version": "1.0.0",
+  "description": "simple hello-world application",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tejam897/Hello-world.git"
+  },
+  "author": "tejamedida897@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tejam897/Hello-world/issues"
+  },
+  "homepage": "https://github.com/tejam897/Hello-world#readme",
+  "devDependencies": {
+    "express": "^4.16.4"
+  }
+}

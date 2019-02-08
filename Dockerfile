@@ -1,14 +1,11 @@
-FROM node
+FROM node:alpine
 
 WORKDIR ./app
 
-COPY . /app
+COPY . .
 
 RUN  npm install
 
 EXPOSE 3000
 
-
-ENTRYPOINT ["node", "server.js"]
-
-CMD ["-c"]
+ENTRYPOINT ["npm", "start"]
